@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "cmath": "cpp"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/danr0/Documents/Kuznechik",
+            "binaryPath": "/home/danr0/Documents/Kuznechik/Kuznechik",
+            "binaryArgs": []
+        }
+    ]
+}

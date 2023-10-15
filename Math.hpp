@@ -54,6 +54,9 @@ void FromHexToDecArr(const std::string& hex, uint8_t* dec)
 
 void FromDecArrToHex(uint8_t* dec, std::string& hex)
 {
-
+    for(int i = 0; i < 16; ++i)
+    {
+        hex += Byte(dec[i]);
+    }
 }
 #endif//MATH

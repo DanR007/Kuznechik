@@ -1,2 +1,4 @@
-rsa_ssh
-rsa_ssh.pub
+.vscode
+.git/
+*.o
+Kuznechik

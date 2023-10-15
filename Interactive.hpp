@@ -6,7 +6,7 @@
 
 void Print(uint8_t a)
 {
-    std::cout << Byte(a) << std::endl;
+    printf("%02x", a);
 }
 void Print(uint8_t* a)
 {
@@ -14,7 +14,7 @@ void Print(uint8_t* a)
     {    
         printf("%02x", a[i]);
     }
-    std::cout << std::endl;
+    printf("\n");
 }
 
 #endif //INTERACTIVE
